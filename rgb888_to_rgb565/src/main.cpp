@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 {
 	if (argc < 3)
 	{
-		printf("usage: rgb888_to_rgb565.exe [path to the image. example: C:\\Users\\some_user\\Desktop\\image.png] [out file name. example:file.txt] optional: [reverse byte order (0xFF00). example : true] \n");
+		printf("usage: rgb888_to_rgb565.exe [path to the image. example: C:\\Users\\some_user\\Desktop\\image.png] [out file name. example: file.txt] optional: [reverse byte order (0xFF00). example: true] \n");
 		
 		return 1;
 	}
