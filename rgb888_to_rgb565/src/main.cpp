@@ -54,7 +54,7 @@ int main(int argc, char** argv)
 
 	if (result != 0)
 	{
-		printf("cannot open the file. please try again.");
+		printf("cannot create the file. please try again.");
 
 		return 1;
 	}
