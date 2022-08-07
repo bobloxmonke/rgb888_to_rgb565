@@ -46,7 +46,7 @@ int main(int argc, char** argv)
 	{
 		printf("out of memory!\n");
 
-		return 0;
+		return 1;
 	}
 
 	FILE* out;
@@ -56,7 +56,7 @@ int main(int argc, char** argv)
 	{
 		printf("cannot open the file. please try again.");
 
-		return 0;
+		return 1;
 	}
 
 	fprintf(out, "// width: %d\n// height: %d\n// color format: RGB565 (16-bit color)\n\n", w, h);
